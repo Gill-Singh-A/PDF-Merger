@@ -16,10 +16,10 @@ It takes input through the command by which we run the python file.<br />
 If we specify '*' then it will merge all the PDF Files present in the folder into a single PDF File. <br />
 For example:
 ```bash
-python pdf_merger.py *
+python pdf_merger.py name_of_the_pdf_to_be_saved *
 ```
 Otherwise we have to specify the PDF File names present in the folder to merge into a single PDF File. <br />
 For example:
 ```bash
-python pdf_merger.py pdf_file_1 pdf_file_2 ...
+python pdf_merger.py name_of_the_pdf_to_be_saved pdf_file_1 pdf_file_2 ...
 ```
